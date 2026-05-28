@@ -1,33 +1,81 @@
-# ChatApp Realtime
+# 💬 ChatApp Realtime – Live Messaging System
 
-Realtime chat application built with JSP, Spring Boot, WebSocket and MySQL.
+> 🚀 Ứng dụng chat realtime sử dụng WebSocket với trải nghiệm mượt mà
+> 👑 Author: **Tuấn**
 
-## Tech Stack
+---
 
-* Spring Boot
-* JSP
-* WebSocket
-* MySQL
-* Docker
-* Railway
-* Render
+## 🌐 Giới thiệu
 
-## Features
+**ChatApp Realtime** là hệ thống chat trực tuyến cho phép người dùng nhắn tin theo thời gian thực, được xây dựng với **Spring Boot + WebSocket**.
 
-* Realtime Messaging
-* Authentication
-* Chat Rooms
-* Admin Management
+Ứng dụng hướng tới trải nghiệm nhanh, ổn định và dễ mở rộng, phù hợp cho các hệ thống chat hiện đại.
 
-## Live Demo
+---
 
-https://chat-app-wg1e.onrender.com/auth/login
+## 🏗️ Kiến trúc hệ thống
 
-## Deploy
+```bash
+chatapp-realtime
+├── config          ⚙️ WebSocket, Security
+├── controller      🎮 API & WebSocket endpoints
+├── service         🧠 Business logic
+├── repository      💾 Database layer
+├── entity          📦 Data models
+├── jsp             🎨 UI (Server-side rendering)
+```
 
-* Backend: Render
-* Database: Railway
+---
 
-## Author
+## 🧩 Tech Stack
 
-Tuấn
+* ☕ **Spring Boot** – Backend framework
+* 🖥️ **JSP** – Giao diện server-side
+* 🔌 **WebSocket** – Realtime communication
+* 💾 **MySQL** – Database
+* 🐳 **Docker** – Containerization
+* ☁️ **Render** – Deploy backend
+* 🚄 **Railway** – Database hosting
+
+---
+
+## ✨ Features
+
+* 💬 **Realtime Messaging** – Nhắn tin tức thì
+* 🔐 **Authentication** – Đăng nhập bảo mật
+* 🏠 **Chat Rooms** – Phòng chat
+* 🛠️ **Admin Management** – Quản lý hệ thống
+
+---
+
+## 🚀 Live Demo
+
+🔗 https://chat-app-wg1e.onrender.com/auth/login
+
+---
+
+## 🚀 Deploy
+
+* ☁️ **Backend:** Render
+* 🚄 **Database:** Railway
+
+---
+
+## 📌 Điểm nổi bật
+
+* ⚡ Giao tiếp realtime với WebSocket
+* 🚀 Deploy nhanh với Render
+* 🐳 Hỗ trợ Docker
+* 📱 Kiến trúc dễ mở rộng
+
+---
+
+## 🧨 Quote
+
+> “Tin nhắn không chỉ là dữ liệu – đó là kết nối theo thời gian thực.”
+
+---
+
+## 📄 License
+
+MIT License
